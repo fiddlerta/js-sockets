@@ -6,6 +6,7 @@
  3. open terminal
  4. install node.js and express (ex: npm install express)
  5. start the application by `node server.js` 
+ 
  Voila!
 ---
-The chat app with Socket.io is based on the logic from the Udemy learning [course] (https://www.udemy.com/course/socketio-with-websockets-the-details/), design and assets on [uplabs](https://www.uplabs.com/posts/messaging-app-2db4a257-7f1d-4d1c-970d-4cf6527247ff) and  [template](https://codepen.io/ThomasDaubenton/pen/QMqaBN) 
+The chat app with Socket.io is based on the logic from the Udemy learning [course](https://www.udemy.com/course/socketio-with-websockets-the-details/), design and assets on [uplabs](https://www.uplabs.com/posts/messaging-app-2db4a257-7f1d-4d1c-970d-4cf6527247ff) and  [template](https://codepen.io/ThomasDaubenton/pen/QMqaBN) 
