@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Soom chat - онлайн чат на основі Socket.io</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<body>
+  <div class="container">
+    <div class="row">
+      <nav class="menu">
+        <ul class="items">
+          <!-- JS will update this dynamically!! -->
+        </ul>
+      </nav>
+
+      <section class="discussions">
+        <div class="discussion search">
+          <div class="searchbar">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text"  id="search-box" placeholder="Search..."></input>
+          </div>
+        </div>
+        <div class="room-list">
+          <!-- JS will update this dynamically!! -->
+      </section>
+      <section class="chat">
+        <div class="header-chat">
+          <i class="icon fa fa-user-o" aria-hidden="true"></i>
+          <div class="curr-room-num-users"></div>
+          <p class="name room-name"></p>
+          <i class="icon clickable fa fa-ellipsis-h right" aria-hidden="true"></i>
+        </div>
+        <div class="messages-chat">
+          <!-- JS will update this dynamically!! -->
+          </div>
+        <div class="footer-chat">
+          <div class="message-form">
+          <form id="user-input">
+                <input id="user-message" type="text" class="write-message" placeholder="Enter your message" />
+            </div>
+        </form>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+<!-- partial -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="/client.js"></script>
+<script src="/joinNs.js"></script>
+<script src="/joinRoom.js"></script>
+
+</body>
+</html>
